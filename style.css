@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgba(246, 246, 246, 0.973);
     margin: 0;
     padding: 0;
     display: flex;
@@ -42,7 +42,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     width: 50%;
-    min-height: 34rem;
+    min-height: 35rem;
 }
 
 .group {
@@ -51,17 +51,30 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 115%;
+    padding: 2rem 0;
+    border: 1px solid lightgray;
+    margin-bottom: 0.75rem;
+}
+
+.group-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 115%;
+    padding: 2rem 0;
     border: 1px solid lightgray;
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 20rem;
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 3.5rem;
+    margin-bottom: 1.23rem;
 }
 
 .profile-photo {
@@ -81,14 +94,20 @@ body {
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+    margin-top: 1.3rem;
 }
 
 .instagram-logout {
     color: #0095f6;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 .not-account {
+    color: rgb(160, 160, 160);
+    margin-bottom: 0.5rem;
+}
+
+.notaccount {
     color: rgb(160, 160, 160);
 }
 
@@ -101,16 +120,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 115%;
     padding: 1.3rem 0;
+    margin-top: 0;
 }
 
 .download {
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+    width: 90%;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1.25rem;
 }
 
 .app-download {
